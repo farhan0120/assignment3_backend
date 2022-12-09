@@ -1,6 +1,6 @@
 // register models, set up associations between tables, and generate barrel file for the models;
 
-const Task  = require('./Course');
+const Task  = require('./Task');
 const Employee  = require('./Employee');
 
 Task.belongsTo(Employee);

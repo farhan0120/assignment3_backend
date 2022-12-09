@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 const db = require('../db');
 
-const task = db.define("task", {
+const Task = db.define("task", {
     description: {
         type: Sequelize.STRING,
         allowNull: false
@@ -23,4 +23,4 @@ const task = db.define("task", {
     
     });
     
-    module.exports = Course;
+    module.exports = Task;
